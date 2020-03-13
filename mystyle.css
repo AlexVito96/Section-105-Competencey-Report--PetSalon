@@ -1,0 +1,178 @@
+header{
+    background-color:rgb(1, 165, 151);
+    color:rgb(253, 252, 252);
+    display:flex; 
+    justify-content:space-between;
+    height:10vh;
+
+}
+
+nav{
+    color:rgb(253, 252, 252);
+    margin-top:1rem;
+}
+
+nav a{
+    color:rgb(253, 252, 252);
+    text-decoration: none !important;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+nav a:hover{
+    color: rgb(179, 11, 128);
+}
+
+.img-logo{
+    display:block;
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+}
+main{
+    height:90vh;
+}
+.info{
+    background-color:black;
+    color:white;
+    font-size: .5rem;
+    text-align: center;
+
+}
+.register{
+    margin-top:1rem;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.selected{
+    background-color:rgb(1, 165, 151);
+    
+}
+
+.cp table{
+    text-align:center;
+    margin:auto;
+    padding:30px;
+}
+
+.btn-change{
+   border:none;
+    color:white;
+    border-radius:10px;
+}
+
+#rowPet{
+    text-align:center;
+    padding:20px;
+}
+
+.cp{
+    text-align:center;
+    padding:20px;
+}
+
+.search{
+    border-radius: 5px;
+
+}
+
+
+
+table{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+tbody{
+    border-bottom:1px solid black;
+    text-align: center;
+}
+
+th{
+    padding:10px;
+}
+
+.del{
+    width:20px;
+}
+
+h1{
+    text-align: center;
+    padding:15px;
+    font-weight: bold;
+}
+
+h2{
+    text-align:center;
+    padding:10px;
+}
+
+.btn-tnt {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(179, 11, 128);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.btn-tnt:hover{
+    background-color:rgb(1, 165, 151);
+}
+
+.team-img{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:8px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .container{
+      padding:0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title{
+      color:grey;
+  }
+
+  .h1{
+      color:rgb(8, 8, 8);
+      font-weight:bolder;
+      background-image: url(img/backkk.jpeg);
+      margin-top:10px;
+  }
+
+  .extend{
+      width:100%;
+  }
+
+
